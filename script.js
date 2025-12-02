@@ -1,5 +1,3 @@
-document.getElementById('current-year').textContent = new Date().getFullYear();
-
 function createParticles() {
     const particlesContainer = document.querySelector('.particles');
     if (!particlesContainer) return;
